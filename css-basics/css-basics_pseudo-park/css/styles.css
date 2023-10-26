@@ -19,9 +19,25 @@
   border-radius: 8px;
   background-color: lightgoldenrodyellow;
 }
+.giraffe {
+  text-align: center;
+}
+.giraffe:hover {
+  background-color: lightgreen;
+}
 
+.dino {
+  text-align: right;
+}
+.dino:hover {
+  background-color: lightsalmon;
+}
+.crocodile:hover {
+  background-color: lightblue;
+}
 .animal {
   padding: 16px;
+  font-size: 32px;
 
   /*
     The animals are very small.

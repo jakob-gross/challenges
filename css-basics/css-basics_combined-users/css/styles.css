@@ -36,6 +36,7 @@ li {
 }
 
 .user {
+  display: absolute;
   position: relative;
   border: 2px solid lightslategray;
   border-radius: 8px;
@@ -51,9 +52,10 @@ aside .user {
   padding: 12px;
   border-radius: 4px;
 }
-.name:nth-child(1, 2) aside .name {
+aside .name {
   font-size: 16px;
 }
+
 aside .bio {
   font-size: 12px;
   margin: 6px 0;
@@ -109,3 +111,13 @@ aside .location {
 
   💡 You can use the display property to hide elements.
 */
+
+ul {
+  .bio {
+    display: none;
+  }
+  .location {
+    text-align: left;
+    color: darkslategray;
+  }
+}

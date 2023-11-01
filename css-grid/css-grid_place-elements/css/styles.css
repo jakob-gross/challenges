@@ -9,6 +9,7 @@ Use grid to fulfill the following tasks:
 [ ] - .element__20 should start at row six and span two rows
 
 */
+
 :root {
   --primary-dark: #2e016d;
   --primary: #3f0097;
@@ -67,25 +68,28 @@ body {
 }
 
 .element-1 {
-  /* Add styles here */
+  grid-column: 3 / 5;
 }
 
 .element-2 {
-  /* Add styles here */
+  grid-column: 5 / -1;
 }
 
 .element-5 {
-  /* Add styles here */
+  grid-column: 2 span;
+  grid-row: 2 span;
 }
 
 .element-8 {
-  /* Add styles here */
+  grid-row: 2 span;
 }
 
 .element-spiced {
-  /* Add styles here */
+  grid-column: 1 / -1;
+  grid-row: 1 / 1;
 }
 
 .element-20 {
-  /* Add styles here */
+  grid-column: 1 / 2;
+  grid-row: 6 / 8;
 }

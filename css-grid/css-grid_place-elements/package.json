@@ -1,7 +1,7 @@
 {
-  "name": "css-grid_image-gallery",
+  "name": "css-grid_place-elements",
   "version": "0.0.0-unreleased",
-  "description": "CSS Layout with Grid - Exercise - Pictures",
+  "description": "CSS Layout with Grid - Exercise - Place Elements",
   "main": "index.html",
   "nf": {
     "template": "html-css"

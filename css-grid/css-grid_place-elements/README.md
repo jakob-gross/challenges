@@ -1,14 +1,15 @@
-# Image Gallery
+# Place Elements
 
 In this challenge, you will encounter the following tasks:
 
-- creating a grid template
+- placing elements in specific cells
+- stretching elements over multiple cells
 
 Please switch to the `./css/styles.css` file to start the challenge. You will find the exact tasks there.
 
 Expected Result:
 
-![result](./assets/grid-challenge_image-gallery.png)
+![result](./assets/grid-challenge_place-elements.png)
 
 ## Development
 

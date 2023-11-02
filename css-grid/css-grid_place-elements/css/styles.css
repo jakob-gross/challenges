@@ -67,7 +67,6 @@ body {
   color: var(--white);
 }
 
-.element-1 {
   grid-column: 3 / 5;
 }
 

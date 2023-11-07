@@ -24,8 +24,12 @@ let error = "This is an error!";
 console.warn(error);
 // Well done!
 console.log();
+console.log();
+console.log();
 console.log()
-    ;
-
     
+console
+for
+    
+}
  }

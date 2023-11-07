@@ -9,7 +9,13 @@ console.clear();
 */
 
 // --v-- write your code here --v--
-
+const books = {
+  title: "The Lord of the Javascript",
+  author: "Mario",
+  rating: 4.2,
+  sales: 120,
+};
+logBookData();
 // --^-- write your code here --^--
 
 /*
@@ -26,6 +32,9 @@ Then log all variables to the console again.
 
 // --v-- write your code here --v--
 
+books.sales += 11;
+books.rating += 1.8;
+logBookData();
 // --^-- write your code here --^--
 
 /*
@@ -37,5 +46,7 @@ Then log all variables to the console again.
 */
 
 // --v-- write your code here --v--
-
+function logBookData() {
+  console.log(books);
+}
 // --^-- write your code here --^--

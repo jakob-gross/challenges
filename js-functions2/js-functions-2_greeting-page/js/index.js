@@ -24,10 +24,21 @@ const display = document.querySelector('[data-js="display"]');
 
 function getGreeting() {
   // Code here
+  const now = new Date().getHours();
+  console.log(now);
+  if (now >= 6 && now <= 12) return "Good Morning";
+  else if (now >= 13 && now <= 18) return "Good Afternoon";
+  else if (now >= 19 && now <= 22) return "Good Evening";
+  else return "Good Night";
 }
 
 function getDayColor() {
   // Code here
+  const date = new Date().getDay();
+  console.log(date);
+  if (date === 1) return "darkgray";
+  if (date >= 2 && date <= 5) return "lightblue";
+  else return "hotpink";
 }
 
 display.textContent = getGreeting();

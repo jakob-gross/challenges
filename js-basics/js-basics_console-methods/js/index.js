@@ -26,10 +26,6 @@ console.warn(error);
 console.log();
 console.log();
 console.log();
-console.log()
-    
-console
-for
-    
-}
- }
+console.log();
+
+console;

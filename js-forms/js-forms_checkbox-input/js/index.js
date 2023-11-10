@@ -21,7 +21,7 @@ tosCheckbox.addEventListener("input", (e) => {
   if (e.target.checked) {
     hideTosError();
   } else {
-    showTosError();
+    showTosError();‚
   }
 });
 

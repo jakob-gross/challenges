@@ -32,3 +32,4 @@ form.addEventListener("submit", (e) => {
     alert("Form submitted");
   }
 });
+console.log();

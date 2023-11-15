@@ -2,6 +2,7 @@ console.clear();
 
 function handleUserLogin(onSuccess, onError, userName) {
   if (userName === "Jane Doe") {
+    console.log(typeof onSuccess);
     onSuccess(userName, "admin");
   } else {
     onError(`Unknown user "${userName}"`);

@@ -4,10 +4,18 @@ export default function Counter() {
   const [count, setCount] = useState(0);
 
   function handleIncrement() {
-    setCount(count + 1);
-    setCount(count + 1);
-    setCount(count + 1);
+    setCount((prev1Count) => prev1Count + 1);
+    setCount((prev1Count) => prev1Count + 1);
+    setCount((prev1Count) => prev1Count + 1);
   }
+
+  function nameOfF(laya)
+  // const [previousState, setPreviousState] = useState(null);
+
+  // const handleStateChange = (newState) => {
+  //   setPreviousState(state);
+  //   setState(newState);
+  // };
 
   return (
     <div className="counter">
